@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function init(){
+        document.getElementsByTagName("h1")[0].innerText = "Welcome to new Life" ;
+        }
+        function fun2(){
+            document.getElementsByTagName("h1")[0].innerText = "Welcome to new Life by fun2" ;
+        }
+
+        function fun3(){
+            document.getElementsByTagName("h1")[0].innerText = "Welcome to new Life by fun3" ;
+        }
+      //  init();
+     // document.addEventListener("DOMContentLoaded",init) 
+      //body.addEventListener("load",fun3)
+      window.addEventListener("load",fun2);
+    
+    </script>
+    <script src="script/one.js"></script>
+</head>
+
+<body>
+  
+    <h1></h1>
+  
+</body>
+
+</html>
