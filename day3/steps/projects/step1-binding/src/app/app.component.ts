@@ -47,6 +47,9 @@ import { count } from 'rxjs';
 <input #numip type="number" [value]="count" (input)="count = numip.value">
       <br>
 <h2>count is:{{count}}</h2>
+
+<hr>
+
 </fieldset>
 
 
